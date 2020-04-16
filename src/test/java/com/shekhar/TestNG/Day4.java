@@ -14,7 +14,8 @@ public void WebLoginHome()
 @Test
 public void MobileLoginHome()
 {
-	System.out.println("MobileLoginHome");
+	System.out.println("MobileLoginHome-Test");
+	//Added comment 
 }
 @Test(groups={"smoke"})
 public void APILoginHome()
