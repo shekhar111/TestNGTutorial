@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="10" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="159" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:12Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TestDay3.APILoginCar()[pri:0, instance:com.shekhar.TestNG.TestDay3@3a82f6ef]" name="APILoginCar" class="com.shekhar.TestNG.TestDay3"/>
+        <method signature="Day4.APILoginHome()[pri:0, instance:com.shekhar.TestNG.Day4@26be92ad]" name="APILoginHome" class="com.shekhar.TestNG.Day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Personal Loan" duration-ms="36" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+      <class name="com.shekhar.TestNG.TestDay3">
+        <test-method status="PASS" signature="APILoginCar()[pri:0, instance:com.shekhar.TestNG.TestDay3@3a82f6ef]" name="APILoginCar" duration-ms="4" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCar -->
+        <test-method status="PASS" signature="WebLoginCar()[pri:0, instance:com.shekhar.TestNG.TestDay3@3a82f6ef]" name="WebLoginCar" duration-ms="0" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCar -->
+      </class> <!-- com.shekhar.TestNG.TestDay3 -->
+    </test> <!-- Personal Loan -->
+    <test name="Home Loan" duration-ms="8" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+      <class name="com.shekhar.TestNG.Day4">
+        <test-method status="PASS" signature="APILoginHome()[pri:0, instance:com.shekhar.TestNG.Day4@26be92ad]" name="APILoginHome" duration-ms="0" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHome -->
+        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:com.shekhar.TestNG.Day4@26be92ad]" name="AfterTestMethod" is-config="true" duration-ms="0" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestMethod -->
+        <test-method status="PASS" signature="WebLoginHome()[pri:0, instance:com.shekhar.TestNG.Day4@26be92ad]" name="WebLoginHome" duration-ms="0" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHome -->
+        <test-method status="PASS" signature="MobileLoginHome()[pri:0, instance:com.shekhar.TestNG.Day4@26be92ad]" name="MobileLoginHome" duration-ms="0" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHome -->
+      </class> <!-- com.shekhar.TestNG.Day4 -->
+    </test> <!-- Home Loan -->
+    <test name="Bike Loan" duration-ms="8" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+      <class name="com.shekhar.TestNG.TestDay2">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="BeforeClass" is-config="true" duration-ms="4" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="WebLoginBike()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="WebLoginBike" duration-ms="4" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginBike -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="APILoginBike()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="APILoginBike" duration-ms="0" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginBike -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="AfterSuiteMethod()[pri:0, instance:com.shekhar.TestNG.TestDay2@5e5792a0]" name="AfterSuiteMethod" is-config="true" duration-ms="0" started-at="2020-03-06T17:01:12Z" finished-at="2020-03-06T17:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuiteMethod -->
+      </class> <!-- com.shekhar.TestNG.TestDay2 -->
+      <class name="com.shekhar.TestNG.Day4">
+        <test-method status="PASS" signature="BeforeSuiteMethod()[pri:0, instance:com.shekhar.TestNG.Day4@26be92ad]" name="BeforeSuiteMethod" is-config="true" duration-ms="20" started-at="2020-03-06T17:01:11Z" finished-at="2020-03-06T17:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuiteMethod -->
+      </class> <!-- com.shekhar.TestNG.Day4 -->
+    </test> <!-- Bike Loan -->
+  </suite> <!-- Suite -->
+</testng-results>

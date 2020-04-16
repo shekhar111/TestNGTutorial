@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Personal Loan">
+    <classes>
+      <class name="com.shekhar.TestNG.TestDay3">
+      <methods>
+      <exclude name = "MobileLoginCar"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Home Loan">
+    <classes>
+        <class name="com.shekhar.TestNG.Day4"/>
+    </classes>
+  </test>
+  <test name="Bike Loan">
+    <classes>
+        <class name="com.shekhar.TestNG.TestDay2">
+        <methods>
+        <exclude name ="Mobile.*"/>
+        </methods>
+        </class>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

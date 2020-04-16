@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Username" value="Shashi"/>
+  <parameter name="URL" value="quickacademy.com"/>
+  <test name="Personal Loan(failed)">
+    <parameter name="Username" value="Shekhar"/>
+    <parameter name="Password" value="123"/>
+    <classes>
+      <class name="com.shekhar.TestNG.Day1">
+        <methods>
+          <include name="MobileLoginPersonal"/>
+          <include name="BeforeTestMethod"/>
+        </methods>
+      </class> <!-- com.shekhar.TestNG.Day1 -->
+      <class name="com.shekhar.TestNG.Day2">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="AfterMethod"/>
+          <include name="AfterClass"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterSuiteMethod"/>
+        </methods>
+      </class> <!-- com.shekhar.TestNG.Day2 -->
+      <class name="com.shekhar.TestNG.Day4">
+        <methods>
+          <include name="BeforeSuiteMethod"/>
+          <include name="AfterTestMethod"/>
+        </methods>
+      </class> <!-- com.shekhar.TestNG.Day4 -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Suite] -->
