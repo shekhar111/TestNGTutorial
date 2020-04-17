@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Day4 {
-	
+//TestNG class day 4	
 @Test
 public void WebLoginHome()
 {
